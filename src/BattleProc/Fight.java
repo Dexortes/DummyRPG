@@ -43,7 +43,7 @@ public class Fight {
         }
     }
 
-    private void attack(Hero hero, Monster monster){
+    private void attack(Hero hero, Monster monster){ //TODO separate attacks
         monster.setHp(monster.getHp() - hero.getDmg());
         System.out.println(hero.getName() + " attacked " + monster.getName() + " for " + hero.getDmg() + ".");
         hero.setHp(hero.getHp() - monster.getDmg());
