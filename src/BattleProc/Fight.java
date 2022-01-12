@@ -49,4 +49,6 @@ public class Fight {
         hero.setHp(hero.getHp() - monster.getDmg());
         System.out.println(monster.getName() + " attacked " + hero.getName() + " for " + monster.getDmg() + ".");
     }
+
+
 }
