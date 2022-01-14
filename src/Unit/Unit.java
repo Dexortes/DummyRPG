@@ -1,14 +1,14 @@
 package Unit;
 
-public class Unit {
+abstract public class Unit {
 
     public static final int HEALTH = 100;
     public static final int DAMAGE = 5;
 
 
-    int hp = 100;
-    int dmg = 5;
-    String name;
+    protected int hp = 100;
+    protected int dmg = 5;
+    protected String name;
 
     public Unit(int hp, int dmg, String name) {
         this.hp = hp;
